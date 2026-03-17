@@ -1,0 +1,11 @@
+name: Call Reusable Workflow
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  call-workflow:
+    uses: ./.github/workflows/reusable-react.yml
+    with:
+      bucket-name: my-react-app-bucket-github-demo
