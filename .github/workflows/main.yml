@@ -9,7 +9,7 @@ jobs:
     uses: ./.github/workflows/reusable-react.yml
 
     with:
-      bucket-name: my-react-app-bucket
+      bucket-name: my-react-app-bucket-github-demo
 
     secrets:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
